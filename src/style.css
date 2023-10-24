@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #263138;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+header a {
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#musicLogo p {
+    font-size: 34px;
+    margin: 6px 0;
+    pointer-events: none;
+}
+
+.separator {
+    border: none;
+    border-top: 2px solid pink;
+    width: 90%;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(bottom, crimson, #FFFFFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav.cor a {
+    background: -webkit-linear-gradient(rgb(220, 20, 60), #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.bordered-image {
+    border: 10px solid #000;
+    border-radius: 50%;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background-color: black;
+    color: red;
+    border-radius: 8px;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.botao-transparente {
+    background-color: transparent;
+    color: red;
+    text-underline-offset: 4px;
+}
+
+.songs {
+    color: crimson;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#container {
+    position: relative;
+    margin-bottom: 6%;
+    margin-top: -170px;
+}
+
+#background-image {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.play a {
+    color: inherit;
+    color: red;
+    font-weight: bold;
+}
+
+.border {
+    border: 10px solid #000;
+    border-radius: 50%;
+}
+
+#playlist {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px;
+}
+
+#playlist li {
+    margin-bottom: 18px;
+    margin-left: 3px;
+}
+
+.absoluto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#playlist {
+    position: relative;
+}
+
+#instrumentos {
+    font-size: 28px;
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#instrumentos img {
+    margin: 23px auto;
+}
+
+.borda {
+    border: 3px solid aqua;
+    border-radius: 10%;
+}
+
+#instrumentos .paragrafo {
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.ab {
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#instrumentos {
+    position: relative;
+}
+
+#organizar {
+    color: #263138;
+    font-size: 19px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+#organizar li {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+#organizar p {
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: rgba(10, 10, 9, 0.952);
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+    color: white;
+}
+
+#copyright {
+    background-color: rgba(15, 14, 14, 0.979);
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+#copyright a {
+    color: crimson;
+}
